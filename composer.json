@@ -1,0 +1,38 @@
+{
+  "name": "jamesdevbr/bradesco-sdk",
+  "description": "SDK para transações com o Banco Bradesco",
+  "keywords": [
+    "jamesdevbr",
+    "bradesco",
+    "laravel"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/jamesdevbr/bradesco-sdk/issues",
+    "source": "https://github.com/jamesdevbr/bradesco-sdk"
+  },
+  "authors": [
+    {
+      "name": "James Francisco da Silva",
+      "email": "me@james.dev.br"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "illuminate/support": "^8.0",
+    "illuminate/console": "^8.0",
+    "guzzlehttp/guzzle": "^7.0.1"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.9.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "JamesDevBR\\BradescoSDK\\": "src/"
+    }
+  },
+  "extra": {
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
